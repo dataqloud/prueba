@@ -7,4 +7,4 @@ def hello_world():
     a = 9
     b = 5
     c = a + b
-    return 'Hello, World!'
+    return 'Hello, World!' + c
