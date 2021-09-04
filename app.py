@@ -1,8 +1,10 @@
+  
 from flask import Flask
 app = Flask(__name__)
-a = 5
-b = 4
-c = a + b
+
 @app.route('/')
 def hello_world():
-    return c
+    a = 9
+    b = 5
+    c = a + b
+    return 'Hello, World!'
